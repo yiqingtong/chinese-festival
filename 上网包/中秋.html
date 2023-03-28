@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/01.css" />
+		<link rel="stylesheet" type="text/css" href="css/头部样式.css" />
+		<style>
+		    .one1{
+		        display: flex;
+		        justify-content: center;
+				margin-bottom: 130px;
+		    }
+		    .a{
+				border-radius: 15px;
+		        position: relative;
+		        top: 100px;
+		        width: 1200px;
+		        height: 600px;
+		        background-image: url(img/350-91.jpg);
+				background-size:700px;
+		        background-size: cover;
+		        display: flex;
+		        justify-content: center;
+		        align-items: center;
+		        overflow: hidden;
+		    }
+		    .b,
+		    .c,
+		    .d,
+		    .e{
+		        position: absolute;
+		        width: 1000px;
+		        height: 600px;
+		        /* 设置阴影 */
+		        filter: drop-shadow(4px 4px 12px rgba(0,0,0,.5));
+		        background-size: cover;
+		        opacity: .7;
+		        transition: .5s;
+		    }
+		    .b::after,
+		    .c::after,
+		    .d::after,
+		    .e::after{
+		        content: "";
+		        position: absolute;
+		        width: 1000px;
+		        height: 600px;
+		        background-image: url(img/vsqq0.jpg);
+			
+		    }
+		    .b{
+		        left: -450px;
+		        transform: rotateZ(100deg);
+		        overflow: hidden;
+		    }
+		    .b::after{
+		        transform: rotateZ(-100deg);
+		    }
+		
+		    .c{
+		        left: -450px;
+		        transform: rotateZ(-100deg);
+		        overflow: hidden;
+		    }
+		    .c::after{
+		        transform: rotateZ(100deg);
+		    }
+		
+		    .d{
+		        right: -450px;
+		        transform: rotateZ(105deg);
+		        overflow: hidden;
+		    }
+		    .d::after{
+		        transform: rotateZ(-105deg);
+		    }
+		
+		    .e{
+		        right: -450px;
+		        transform: rotateZ(-100deg);
+		        overflow: hidden;
+		    }
+		    .e::after{
+		        transform: rotateZ(100deg);
+		    }
+		    .f{
+		        opacity: 0;
+		        font: 900 50px '';
+		        /* 设置字体间距 */
+		        letter-spacing: 10px;
+		        color: rgb(60,60,70);
+		        transition: .5s;
+		    }
+		    /* 设置动画 */
+		    .a:hover .b{
+		        left: -700px;
+		    }
+		    .a:hover .c{
+		        left: -720px;
+		    }
+		    .a:hover .d{
+		        right: -700px;
+		    }
+		    .a:hover .e{
+		        right: -740px;
+		    }
+		    .a:hover .f{
+		        opacity: 1;
+		    }
+		</style>
+	</head>
+	<body>
+		<div class="bigbox">
+			<div class="navbar">
+				<div class="nav">
+					<ul>
+						<li>
+							<a href="index.html">首页</a>
+						</li>
+						<li>
+							<a href="春节.html">春节</a>
+						</li>
+						<li>
+							<a href="清明.html">清明节</a>
+						</li>
+						<li>
+							<a href="端午.html">端午节</a>
+						</li>
+						<li>
+							<a href="中秋.html">中秋节</a>
+						</li>
+						<li>
+							<a href="手机体验.html">手机体验</a>
+						</li>
+						<!-- 这个元素定义滑动的线条 -->
+						<li class="underline"></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- 图片导航区域class  one -->
+		<div class="head flex">
+			<div class="a1">
+				<img src="img/月兔.png" style="margin-top: 160px;">
+			</div>
+			<div class="a3 flex">
+				<div>死之药后,飞到了月宫</div>
+				<div>赐给丈夫后羿的一粒不</div>
+				<div>奈之下,吃下了西王母</div>
+				<div>传说嫦娥被逄蒙所逼无</div>
+			</div>
+			<div class="a2">
+				<img src="img/中秋logol.png" style="float: right;">
+				<img src="img/嫦娥01.png" style="width: 340px;margin-top: -50px;margin-right:150px;<!-- border: 1px solid red; -->">
+			</div>
+		</div>
+		
+		<div class="head1 flex" id="one">
+			<div class="b1 flex column">
+				<div class="bb1"><img src="img/月饼4.jpg" style="width: 400px;"></div>
+				<div class="bb2">
+					<h1 style="display: inline-block;font-weight: bold;
+	border: 3px dotted black;border-radius: 10px;
+	font-family: 楷体;">
+						中秋节简介
+					</h1>
+					<p style="font-family:楷体;font-size: 20px;font-weight: bold;">中秋节的起源和月亮密不可分，中秋节是上古天象崇拜——敬月习俗的
+						遗痕。 在传统文化中，月亮和太阳一样，这两个交替出现的天体成了先
+						民崇拜的对象。 在二十四节气“秋分”时节，是古老的“祭月节”，中秋节
+						则是由传统的“秋分祭月”而来。</p>
+				</div>
+				<div class="bb3"><img src="img/月饼8.png" style="width: 400px;height: 213px;margin-left: -10px;"></div>
+			</div>
+			<div class="b2 flex column" id="two">
+				<div class="bbbb1 flex ">
+
+					<div class="bbb1"><img src="img/桂花酒.png" style="z-index: -1; width: 350px;border-top: 3px double black;border-radius: 10px;"></div>
+					<div class="bbb2">
+						<h1 style="display: inline-block;font-weight: bold;
+	border: 3px dotted black;border-radius: 10px;
+	font-family: 楷体;">中秋节习俗</h1>
+						<p style="font-family:楷体;font-size: 20px;font-weight: bold;">桂花酒的历史也十分悠久，而到了清代，中秋节饮桂花酒变成既定习俗
+							。据清代潘荣陛着的《帝京岁时记胜》记载，八月中秋，“时品”饮“桂花东酒”。
+							桂花是富贵吉祥、子孙昌盛的象征，而中秋佳节饮用桂花酒寓意家庭甜蜜
+							，富贵吉祥，子孙昌盛。中秋又是一个团圆的节日，所以中秋饮用桂花
+							酒味美意更浓
+						</p>
+					</div>
+				</div>
+				<div class="bbbb2 flex">
+					<div class="bbbbb1">
+						<h1 style="display: inline-block;font-weight: bold;
+	border: 3px dotted black;border-radius: 10px;
+	font-family: 楷体;">桂花酒</h1>
+						<p style="font-family:楷体;font-size: 20px;font-weight: bold;">中秋节放花灯的由来已久，早在北宋《武林旧事》
+							中，记载中秋夜节俗，就有‘将“一点红”灯放入江中漂流玩耍
+							的活动。中秋玩花灯，赏花灯，多数集中在江南水乡南方一带，寓
+							意将祝福带去。花灯也是多种多样，美轮美奂、精致小巧令人赞叹。
+						</p>
+					</div>
+					<div class="bbbbb2"><img src="./img/03.jpg" style="width: 200px;height: 223px;"></div>
+				</div>
+			</div>
+		</div>
+		<div class="one1">
+			<div class="a">
+			    <div class="b"></div>
+			    <div class="c"></div>
+			    <div class="d"></div>
+			    <div class="e"></div>
+			    <p class="f"></p>
+			</div>
+		</div>
+		<div class="foot" style="width: 100%;height:60px; background-color: rgba(0,0,0,0.4);overflow: hidden;">
+			<p style="font-size: 5px; color:rgb(246,247,220) ; text-align: center;line-height: 30px;">网上有害信息举报专区：中国互联网违法和不良信息举报中心亲爱的市民朋友，上海警方反诈劝阻电话“96110”系专门针对避免您财产被骗受损而设，请您一旦收到来电，立即接听。<br>网络文化经营许可证
+			</p>
+			<p style="font-size: 5px; color: rgb(246,247,220); text-align: center;line-height: 100px;"></p>
+		</div>
+	</body>
+</html>

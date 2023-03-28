@@ -1,0 +1,122 @@
+* {
+	padding: 0;
+	margin: 0;
+	/* border: 1px solid black; */
+}
+/* .bigbox{
+	height: 500px;
+	background-image: url(../img/端午节.png);
+	background-size: 100vm;
+	background-repeat: no-repeat;
+	background-position: fixed;
+} */
+.flex{
+display: flex;	
+}
+
+.column{
+	flex-direction: column;
+}
+.zengjia{
+	width: 100%;
+	height:200px;
+}
+body{
+	background:url(../img/bg1.png) no-repeat center;
+	background-attachment:fixed;
+	background-size: cover;
+	overflow-x: hidden;
+}
+.zengjia{
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+}
+
+.head1{
+	/* border: 1px solid red; */
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: rgba(0,0,0,0.03);
+	box-shadow:rgba(0,0,0,.3) 1px 3px 20px 2px ;
+}
+.head1 .quyuan{
+	width: 600px;
+}
+.head1 img{
+	width: 600px;
+	height:;
+	/* border: 1px solid black; */
+}
+.head1 .yuanwenzi{
+	justify-content: center;
+	width:400px;
+	height: 600px;
+	/* border: 1px solid black; */
+	color:black;
+	font-family: "楷体";
+	font-weight: bold;
+	text-shadow:1px 3px white;
+}
+.head1 .a1{
+	padding-top: 8px;
+/* border: 1px solid green; */
+width: 40px;
+height: 600px;
+font-size: 40px;
+margin-left: 20px;
+}
+.head1 .yuan{
+	width: 300px;
+	height: 600px;
+	/* border: 1px solid red; */
+	overflow: hidden;
+}
+.abc{
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	
+}
+.abc .c1{
+	height: 600px;
+	width: 500px;
+	
+}
+.abc .c2{
+	height: 600px;
+	width: 500px;
+}
+.abc .c3{
+	height: 600px;
+	width:300px;
+	box-sizing: border-box;
+}
+.abc .c1,.c2,.c3{
+	margin-right: 5px;
+}
+/* 端午奶奶图片 */
+.abc .c3 .cc1{
+	height: 280px;
+	width: 300px;
+	border:4px double black;
+	border-radius: 10px;
+}
+.abc .c3 .cc2{
+	height: 320px;
+	width: 300px;
+	border:4px double black;
+	border-radius: 10px;
+	margin-top: 5px;
+	overflow: hidden;
+}
+.abc .c1 .d1{
+	/* height: 250px; */
+	border: 4px double black;
+	border-radius: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+

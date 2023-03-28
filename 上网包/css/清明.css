@@ -1,0 +1,186 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	width: 100%;
+	background: url(../img/清明1.jpg) no-repeat center;
+	background-attachment: fixed;
+	background-size: cover;
+	overflow-x: hidden;
+}
+.flex{
+	display: flex;
+}
+.column{
+	flex-direction: column;
+}
+
+
+/* 第一个页面 */
+.head{
+	height: 100vh;
+	width: 100%;
+	/* border: 1px solid red ; */
+	justify-content: center;
+	align-items:flex-end;
+	box-shadow: 0 4px 4px 0 rgb(0 0 0 / 10%);
+	background-color: rgba(0,0,0,.03);
+}
+.head .a1{
+	width: 400px;
+	height: 400px;
+	/* border: 1px solid black; */
+}
+.head .a2{
+	width: 400px;
+	height: 600px;
+	/* border: 1px solid black; */
+}
+/* 第二个页面 */
+.head1{
+	height: 100vh;
+	widows: 100%;
+	/* border: 1px solid red ; */
+	justify-content: center;
+	align-items: center;
+}
+.head1 .b1{
+	width: 300px;
+	height: 600px;
+	border: 4px double black;
+	border-radius: 10px;
+	overflow: hidden;
+	box-sizing: border-box;
+	
+	
+}
+.head1 .b2{
+	width: 400px;
+	height: 600px;
+	/* border: 1px solid black; */
+	box-sizing: border-box;
+}
+.head1 .b2 .bb1{
+	height: 290px;
+	border: 4px double black;
+	box-sizing: border-box;
+	padding: 5px;
+	border-radius: 10px;
+}
+.head1 .b2 .bb2{
+	height:300px;
+	box-sizing: border-box;
+	border: 4px double lightgreen;
+border-radius: 10px;
+margin-top: 8px;
+}
+.head1 .b3 .bbb1{
+	height: 340px;
+	border: 4px double black;
+	box-sizing: border-box;
+	border-radius: 10px;
+}
+.head1 .b3 .bbb2{
+	height:253px;
+	border-radius: 10px;
+	border: 4px double black;
+	box-sizing: border-box;
+	padding: 5px;
+	margin-top: 6px;
+	
+}
+/* 对每个div进行左边5个像素 */
+.head1 .b1,.b2,.b3{
+	margin-left: 5px ;
+}
+
+
+.head1 .b3{
+	width: 400px;
+	height: 600px;
+	/* border: 1px solid black; */
+	box-sizing: border-box;
+}
+.head2{
+	width: 100%;
+	height:600px;
+	justify-content:space-around;
+}
+.head2 .c1,.c2,.c3{
+	border: 1px solid black;
+	width: 300px;
+	height: 500px;
+	
+}
+
+
+/* 新增的页面 */
+
+.xinzeng{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    position: relative;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.container .card{
+    margin-top: 100px;
+    position: relative;
+    max-width: 300px;
+    height: 215px;
+    background: #fff;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 202px rgba(0,0,0,0.5);
+    transition: .3s ease-in-out;
+}
+
+.container .card:hover{
+    height: 420px;
+}
+
+.container .card .imgBx{
+    position: relative;
+    width: 260px;
+    height: 260px;
+    top: -60px;
+    left: 20px;
+    z-index: 1;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+.container .card .imgBx img{
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+.container .card .content{
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align: center;
+    color: #111;
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s ease-in-out;
+}
+
+.container .card:hover .content{
+    visibility: visible;
+    opacity: 1;
+    margin-top: -40px;
+    transition-delay: .3s;
+}

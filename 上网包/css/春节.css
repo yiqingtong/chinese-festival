@@ -1,0 +1,123 @@
+* {
+	padding: 0;
+	margin: 0;
+	/* border: 1px solid black; */
+}
+body{
+	background:url(../img/春节1.jpg) no-repeat center;
+	background-attachment:fixed;
+	background-size: cover;
+	overflow-x: hidden;
+}
+.head,.head1 div{
+	margin-bottom: 5px;
+	margin-left:5px;
+}
+.flex{
+	display: flex;
+}
+.column{
+	flex-direction: column;
+}
+.head{
+	width: 100%;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	box-shadow:rgba(0,0,0,.3) 1px 3px 20px 2px ;
+	background-color: rgba(0,0,0,.05);
+}
+.head .a1{
+	width: 500px;
+	height: 430px;
+	/* border: 1px solid red; */
+	align-self: flex-end;
+}
+.head .a2{
+	width: 400px;
+	height: 600px;
+	/* border: 1px solid black; */
+	
+}
+.head1{
+	width: 100%;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+}
+.head1 .b1{
+	width: 600px;
+	height: 600px;
+
+	
+}
+.head1 .b2{
+	width: 400px;
+	height: 600px;
+}
+
+.head1 .b1 .bb1{
+	height: 300px;
+	width: 600px;
+	/* overflow: hidden; */
+	border-radius: 10px;
+	border:4px double black;
+	box-sizing: border-box;
+	overflow: hidden;
+
+}
+.head1 .b1 .bb2 .bbb1{
+	margin-left:0px;
+	height: 300px;
+	width:400px;
+	border:4px double black;
+	overflow: hidden;border-radius: 10px;
+	padding: 8px;
+	box-sizing: border-box;text-shadow:1px 1px white;
+}
+.head1 .b1 .bb2 .bbb2{
+	width: 200px;
+	height: 300px;
+	box-sizing: border-box;
+	border:4px double black;
+	overflow: hidden;border-radius: 10px;
+
+}
+.head1 .b2 .d1{
+	height: 385px;
+	width: 400px;
+	border: 4px double red;
+	box-sizing: border-box;
+	border-radius: 10px;
+}
+.head1 .b2 .d2{
+	height: 200px;
+	width:400px ;
+	padding: 4px;
+	box-sizing: border-box;
+	border: 4px double black;
+	border-radius: 10px;
+	text-shadow:1px 1px white;
+}
+.head2{
+	width: 100%;
+	
+	justify-content: center;
+	align-items: center;
+	
+}
+.head2 .e1{
+     height: 600px;
+     width: 400px;
+	 border-radius: 10px 0px 0px 10px ;
+	 /* border: 1px solid red; */
+	 overflow: hidden;
+}
+
+.head2 .e2{
+     height: 600px;
+     width: 750px;
+	 /* border: 1px solid red; */
+	 	 border-radius:0px 10px 10px 0px;
+		 overflow: hidden;
+}

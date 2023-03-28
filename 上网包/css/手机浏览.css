@@ -1,0 +1,52 @@
+.flex{
+	display: flex;
+}
+.column{
+	flex-direction:column;
+}
+.head{
+	height: 100vh;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+}
+.head .a1{
+	width:400px;
+	height: 610px;
+	/* 右侧的导航 */
+	/* border: 1px solid red; */
+	justify-content: center;
+}
+.head .b1{
+	height:60px;
+	width: 200px;
+	/* border: 3px double red; */
+	margin-bottom: 30px;
+	margin-left: 30px;
+	border-radius: 30px;
+	box-sizing: border-box;
+	box-shadow: 7px 9px 5px rgb(0,0,0,.1);
+}
+.head .b1 a{
+	background: linear-gradient(90deg, rgba(20,250,300,1),darkturquoise,skyblue);
+	text-decoration: none;
+	display: block;
+	width: 200px;
+	height: 60px;
+	border: 1px solid rgba(0,0,0,.01);
+	box-sizing: border-box;
+	/* border: 2px solid black; */
+	border-radius: 30px;
+	line-height: 60px;
+	text-align: center;
+	font-family: 楷体;
+	font-size: 25px;
+	color: white;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px black;
+}
+.head .b1 a:hover{
+	background: linear-gradient(90deg,skyblue,rgba(20,250,300,1),darkturquoise);
+	box-shadow: rgba(0,0,0,0.08);
+	
+}
